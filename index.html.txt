@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#173B57">
+
+  <title>MediAI - Buku Saku Perekam Medis</title>
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="manifest" href="manifest.webmanifest">
+
+</head>
+<body>
+
+  <header class="header">
+    <div class="brand">
+      <div class="brand-icon">AI</div>
+      <div>
+        <h1>MediAI</h1>
+        <p>Buku Saku Digital Perekam Medis</p>
+      </div>
+    </div>
+    <span class="status">E-BOOK DIGITAL</span>
+  </header>
+
+  <main class="container">
+
+    <section class="hero">
+      <span class="eyebrow">PANDUAN DIGITAL</span>
+      <h2>Pemanfaatan AI dalam Pekerjaan Perekam Medis</h2>
+      <p>
+        Pelajari pemanfaatan kecerdasan buatan untuk mendukung
+        pekerjaan dan pelayanan rekam medis.
+      </p>
+
+      <a class="primary-button"
+         href="assets/buku-saku-ai-perekam-medis.pdf"
+         target="_blank">
+        Buka Buku Saku
+      </a>
+    </section>
+
+    <section class="reader-section">
+      <div class="section-heading">
+        <div>
+          <h2>Ruang Baca Digital</h2>
+          <p>Baca buku saku langsung melalui aplikasi.</p>
+        </div>
+      </div>
+
+      <div class="pdf-container">
+        <iframe
+          src="assets/buku-saku-ai-perekam-medis.pdf"
+          title="Buku Saku Pemanfaatan AI dalam Pekerjaan Perekam Medis">
+        </iframe>
+      </div>
+    </section>
+
+    <section class="info">
+      <h3>Tentang Buku</h3>
+      <p>
+        Buku saku ini membahas pemanfaatan teknologi kecerdasan
+        buatan dalam mendukung pekerjaan perekam medis.
+      </p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 MediAI - Buku Saku Digital Perekam Medis</p>
+  </footer>
+
+  <script src="app.js"></script>
+
+</body>
+</html>

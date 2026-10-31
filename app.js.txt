@@ -1,0 +1,21 @@
+
+// Menjalankan Service Worker untuk fitur offline
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", async () => {
+    try {
+      await navigator.serviceWorker.register(
+        "./service-worker.js"
+      );
+
+      console.log("MediAI PWA berhasil diaktifkan.");
+    } catch (error) {
+      console.error(
+        "Service Worker gagal diaktifkan:",
+        error
+      );
+    }
+  });
+}
+
+// Menampilkan pesan ketika aplikasi siap
+console.log("Selamat datang di MediAI E-Book!");
